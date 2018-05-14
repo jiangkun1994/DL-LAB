@@ -7,7 +7,8 @@
                         'followed by 20k iterations with learning rate 0.0001',
                         default="60000:1e-3,20000:1e-4")
 ```  
-这部分都调成了10000次。经过四次在VOC2007的`train.txt`的训练和在`val.txt`的预测以及跟真实情况的对比。预测实验结果见文件[car](comp3_det_test_car.txt)和[person](comp3_det_test_person.txt)。而与真实情况对比以及mAP可见图。  
+
+这部分都调成了10000次。经过四次在VOC2007的`train.txt`的训练和在`val.txt`的预测以及跟真实情况的对比。预测实验结果见文件[car](comp3_det_test_car.txt)和[person](comp3_det_test_person.txt)。这两个txt文件最左侧是验证数据图的编号，中间是属于这个物体的可能性，右边是定位框的坐标。而与真实情况对比以及mAP可见图。  
 ![](1.png)  
 
 ![](2.png)  
